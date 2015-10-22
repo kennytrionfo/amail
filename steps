@@ -2,3 +2,13 @@ Building an angular gmail (amail) app:
 
 Create a generic index.html page
 
+Create a stylesheet for html page. 
+
+Put the scripts you'll be using at the bottom of the body: 
+	jquery
+	angular
+	bootstrap? 
+	etc
+
+Put the link to the stylesheet in the header. 
+
