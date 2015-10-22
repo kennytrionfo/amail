@@ -1,13 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="myApp">
 <head>
 	<title>Amail Angular App</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-
+	<div ng-controller="TestCtrl" >
+		<h1>{{title}}</h1>
+		<input type="text" ng-model="title">
+	</div>
 
 	<script src="lib/jquery-1.11.3"></script>
 	<script src="angular.min.js"></script>
+	
 </body>
 </html>

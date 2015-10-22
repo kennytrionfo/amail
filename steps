@@ -12,3 +12,24 @@ Put the scripts you'll be using at the bottom of the body:
 
 Put the link to the stylesheet in the header. 
 
+Put the application scope in place so that the app can us angular by putting the ng-app directive in the html element.
+	Like: 
+	<html ng-app="myApp">
+	in the top html app
+
+
+Put a div in with another scope / directive for a controller of TestCtrl
+	<div ng-controller="TestCtrl">
+	</div>
+
+Put in an input field and assign the input to a model called title: 
+	like: 
+	<input type="text" ng-model="title">
+	so in end will look like: 
+	<div ng-controller="TestCtrl">
+		<h1>{{title}}</h1>
+   	<input type="text" ng-model="title">
+	</div>
+
+
+
