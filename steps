@@ -31,5 +31,10 @@ Put in an input field and assign the input to a model called title:
    	<input type="text" ng-model="title">
 	</div>
 
+Create a main.js file and put in 1.a closure and 2.put a function in it with the controller in it that we just put in the directive in the html and 3.link the js file to the html: 
+	function TestCtrl($scope) {
+		$scope.title = 'Write a title here...';
+	};
+
 
 
